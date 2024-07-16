@@ -1,0 +1,77 @@
+1.gün
+dimensions ayarlarını import etme
+ortho ile direkt çizim yapma
+center2x kullanımı 
+var olan dosya ile yeni dosyayı aynı sekmede açma ve kapatırken yeni dosyayı da yanlışlıkla kapatma
+xl sonsuz bir çizgi atar (aks olarak kullanılan çizgi) şekil çevresine bir dikdörtgen çizip trimleyerek akslar oluşturulur
+ma komutu ile seçtiğimiz çizginin layer propertilerini sonrasına seçtiğimiz çizgiye ekleriz
+h komutu ile kolon gibi kutu içlerini boyayabiliriz
+ctrl+w ile üstüste çizilen çizgilerde hangisini seçmek istediğimizi seçebiliriz
+diğer proje elemanlarını (kapı pencere gibi) ya kopyala yapıştır yaparak yada ınstert komutuyla yapıştırarak yapabiliriz
+
+
+
+2.gün
+
+bo komutuyla alan hesaplamayı eğer alan hesaplanacak alanda kapı vs gibi açıklıklar varsa da polyghon ile çevreleyip ondan sonra alan hesaplmayı öğrendim
+Asansör boyutu standart projelerde aynı boyut kullanılır
+1500metrekarelik bir bina projesini dilatasyonla bölüp hem kalıp kurulumu hem inşa için daha kolay inşaya yönelik bir işlem yaptık
+1 2 3 ve 4.kat için kullanılan ortak plana başladım 
+layer katmanlarını görüntülemeyi kapatım daha basit eleman seçme( duvarların hepsini gibi) komutunu öğrenendim (ampul simgesi-frozen)
+2.gün sonunda kapıların hepsini ters yaptığım ve zemin dolgularını(süsleme gibi gözüken kısım) eksik olarak projemin ara katlarını bugün için bitirdim 
+proje çizme ile ilgili bir trick : aksların hepsini tek blok şekline getirerek hem yeni katta kontrol hemde kolaylık sağlayabiliriz çünkü kolonların yeri çatı katı hariç(çatıda kolon yok) aynı oluyur
+akslar projedeki kirişlerin yerini gösteriri
+kolonların karşılıklı düz bir hat üzerinde gelmediği durumlarda kirişler çapraz çizilebilir veya araya perde kolon atıp yarım H şeklide nnisbeten çapraz kirişler de yapılabilir (resimi ekle)
+
+3.gün
+ilk iş dün yanlış olarak yaptığım kapıların hem şeklini(90/210 olarak kullanılan kapıları ekledim) hem yönünü değiştirerek düzelttim
+2.adım olarak döşemeleri ekledim 
+5.katı çizmeye başladım burada ilk 4 kattan farklı olarak sadece içerden merdiven ekledim ve odaların yerini değiştirdim ve bitirip kaydettim
+son kat olan çatı katına başladım ;
+çatı katta 50cm saçak genişliği eklenir saçak ucundan 2 metre içeriye kadar teras harici oda olmaz buda emsal dışı kalmasını sağlayarak izin verilen kapalı alan metrekare değerine dahil olmuyor 
+çatı kat mutfağına sadece evye ve buzdolabı konuyormuş (bodrum ve çatıya doğalgazlı alet konulmaz)
+çatı katını da bitirdim bundan sonraki adım olarak kesit çizmeye başlayacağım
+
+
+4.gün 
+çatı çizgilerini çatı katı planında göstermeyi:
+co komutuyla referans noktasından hizlamayı
+f komutuyla seçtiğimiz 2 çizgiyi aynı eğimle devam ettirip uçlarını birleştirmeyi
+o enter ile de verdiğimiz ofset değerinde seçtiğimiz yönde aynı şekli tekrarlamamayı da yaparak bitirdim 
+çatı planına başladım ön bilgilendirme olarak asansör ve meriden kulesi boşluğu teraslar ve havalandırma kazanı boşluğu bırakmam 
+dış duvarın 15cmve 50 cm kalınlıklarını bırakmam ve geriye kalan kısımları çatı yaparak (h komutu ile taratıp ma ile çatıya geçirme)
+daha hızlı ve kolay işlem yapabilmem için snap settings ve crusor settings ayarlarımı güncellemeyi öğrendim (daha büyük imleç ve snaplarin hepsini açma şeklinde)
+lw komutuyla (lineweight) açılan menüden çizgi özellikleri özelleştirilebilir
+bugünün geçtiğim 3 günden şöyle bir farkı oldu bugün çizdiğim projeyi diğerlerine bakarak a3 çıktı olmadan kendim çizdim buda önemli bir kilometre taşı olduğunu düşünüyorum çizim için :
+yaptığım diğer projeleri alt alta hizalayıp ordan örnekleyerek çizim yaptım
+7 katlı büyük konut projesi için proje üzerinde düzenlemelerde bulunuldu bu süreçte mimar, mühendisler ve mütahit olarak fikir alışverişi yaptık
+dikey kesit (a-akesiti) çizmeye başladım :
+kesitini çizeceğimiz katın planını copyalayıp altına düz çizgi çektikten sonra xl ile dikler çekerek A veya B kesit çizgileriyle kesişen duvar ve kolonlardan dikler indirerek şekli ortaya çıkarıyoruz
+plak ve kaset şeklinde 2 tür döşeme var olduğunu ve buna göre kirişlerin çizildiğini öğrendim
+kaset döşeme : üst kısmı düz olan ve alt yüzeyinde her iki yönde kirişler ile ızgara benzeri bir yapı oluşturan yapısal bir sistemdir.
+plak döşeme  : En az bir kenarı kirişe oturan plaklardır (düz gözükür)
+
+
+5.gün 
+a-a kesiti çizimine devam ediyorum 1.gün yaşadığım zorluklardan dolayı kesit planından yardım almaya başladım
+ölçülerde yaptığım hata yüzünden baştan başladım(asansör merdiven kulesi boşluğunu dolayısylada kirişlerin hepsi yanlış kayık yerde oldu)(resim ekledim)
+balkon duvarı 110 cm olarak aldık yaklaşık olarak her zaman aynı alınırmış
+çatı eğimi verirken tanjant kuralı kullanır x ekseninde 100 y ekseninde 26 yapıp birleştirince eğim %26 olur gibi
+her katın zemini, kirişler ve asansör perdesi kolon layeriyle çizilir ve içi dolu gösterilir (kolon gösterimi gibi aynı)
+asansör makinesi döşemeden 105 cm yukarıya kurulan kiriş döşemesi üstüne konumlandırılır(15 cm kalınlığı da vardır)
+rıht (merdeiven basamak yüksekliği max 18 cm olabilir) bunu üstten bakışını çizdiğimiz normal kesitlerdeki merdiveni alıp kesit üzerinde hizaladığımız zaman xl ile dikler indirip : 
+eğer normal düz merdiven (dönmesiz) ise kesilen yerleri kolon layeriyla kesilmeyen yerleri merdiven layeriyla çizerek yaparız
+eğer bir dönme varsa sırayla basamak başı ve sonundan dikler indirip basamak basamak çizerek yaparız en son merdiven altındaki eğimli alan için 10cm ofset verip eğim basamağa değene kadar devam ettirilir sonrasında diğer uçta birkez daha aynı işlem tekrarlanır kesişen yerler trimlenir ardından içi dolgu yapılıp diğer katlara geçilir
+
+
+6.gün 
+b-b kesitini çizmye başladım:
+ aa kesiti gibi çizeceğim şekil üzerine yapıştırıp dikler çizerek kirişleri ve duvarları belli ederek çizmeye başladım
+rampada yapılan bir konut peojesinde zemin altı garaj kapısı girişi için :
+üst kattan gelen perdenin alt katta devamı
+garaj girişi yüksekliği 216cm zemin kaplamaları hariç
+perde çevresinden dönme için dar dönüş alanı (yetersiz mesafe ve mka daraltması
+sorunlarını çözmek için fikir alışverişi ve denemeler yaptık 
+
+görünüşleri çizmeye başladım görünüşlerde kesit gibi çiziliyor ama burda en dıştan kesmiş gibi oluyor yani cam kapı duvar vs de çiziliyor
+
